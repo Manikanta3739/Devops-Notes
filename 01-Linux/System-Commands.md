@@ -1,17 +1,19 @@
-uname : used to get type of OS
-uname -r : used to get kernel version of our OS
-uname -a : used to get full info about OS
-clear: this command is used to clear the clear (or) you can use ctrl + l as a short cut
-uptime : used to get since how long our system is in running state
-uptime -p : this will give only time
-hostname: used to get private dns name of our system
-hostname -i : used to get private ip of our system
-hostnamectl set-hostname “swiggy” : used to change hostname
-ip addr : used to get private IP
-ip route : used to get private IP
-ifconfig : used to get private IP
-date : to get todays date
-timedatectl : used to get timezones
-timedatectl set-timezone Asia/Kolkata : used to change Timezone to IST
-who : used to see how many users have been loggin into your system
-whoami : used to see the current user.
+| Command | Purpose |
+|---------|---------|
+| `uname` | Displays the operating system name. |
+| `uname -r` | Displays the Linux kernel version. |
+| `uname -a` | Displays complete operating system information. |
+| `clear` | Clears the terminal screen. (`Ctrl + L` also works) |
+| `uptime` | Shows how long the system has been running. |
+| `uptime -p` | Displays uptime in a human-readable format. |
+| `hostname` | Displays the system hostname. |
+| `hostname -i` | Displays the private IP address. |
+| `hostnamectl set-hostname <name>` | Changes the system hostname. |
+| `ip addr` | Displays IP addresses and network interfaces. |
+| `ip route` | Displays the routing table. |
+| `ifconfig` | Displays network interface information. |
+| `date` | Displays the current date and time. |
+| `timedatectl` | Displays date, time, and timezone information. |
+| `timedatectl set-timezone Asia/Kolkata` | Changes the system timezone to IST. |
+| `who` | Displays users currently logged into the system. |
+| `whoami` | Displays the current logged-in user. |
